@@ -57,6 +57,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Mozgas.cs" />
+    <Compile Include="mozgas2.cs" />
+    <Compile Include="Pozício.cs" />
+    <Compile Include="Sakktabla.cs" />
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
@@ -110,6 +114,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pieces\bishop_dark.png" />
+    <Resource Include="pieces\bishop_light.png" />
+    <Resource Include="pieces\king_dark.png" />
+    <Resource Include="pieces\king_light.png" />
+    <Resource Include="pieces\knight_dark.png" />
+    <Resource Include="pieces\knight_light.png" />
+    <Resource Include="pieces\pawn_dark.png" />
+    <Resource Include="pieces\pawn_light.png" />
+    <Resource Include="pieces\queen_dark.png" />
+    <Resource Include="pieces\queen_light.png" />
+    <Resource Include="pieces\rook_dark.png" />
+    <Resource Include="pieces\rook_light.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
